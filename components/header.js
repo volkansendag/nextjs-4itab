@@ -13,7 +13,7 @@ export default function Header({ children }) {
     return (
         <div className="site-header flex-1">
             <Link href="/">
-                <a className="site-logo mr-1" href="index.html">
+                <a className="site-logo mr-1">
                     <img src="assets/images/logo.svg" alt="4Decision" />
                 </a>
             </Link>
@@ -30,8 +30,8 @@ export default function Header({ children }) {
                     </li>
                 </ul>
                 <div className="account flex-1">
-                    <a className="btn btn-muted" href="index.html">Log In</a>
-                    <a className="btn btn-border" href="index.html">Create a New Account</a>
+                    <Link href="/login"><a className="btn btn-muted">Log In</a></Link>
+                    <Link href="/register"><a className="btn btn-border">Create a New Account</a></Link>
                 </div>
             </div>
             <a className="mobile-menu-icon d-md-none" href="#" onClick={mobileMenuClick} />

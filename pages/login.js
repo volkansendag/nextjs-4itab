@@ -4,7 +4,7 @@ function Login() {
     return <div>Login</div>
 }
 
-export default About
+export default Login
 
 Login.getLayout = function getLayout(page) {
     return (
