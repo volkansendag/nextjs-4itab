@@ -1193,3 +1193,27 @@ blockquote:after {
     letter-spacing: 0;
   }
 }
+
+/* Fonts
+-------------------------------- */
+@font-face {
+  font-family: 'Maison Neue';
+  src: url("/assets/font/maison-neue/regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Maison Neue';
+  src: url("/assets/font/maison-neue/bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url("/assets/font/fontello.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
