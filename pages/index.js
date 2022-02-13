@@ -65,7 +65,10 @@ export default function Home() {
                 <div className="number mr-0">2</div>
                 <h4>PrestaShop Web Service / API</h4>
               </div>
-              <p>With this option, we don't need direct access to the database. Instead, you will create an API key for us that allows us to fetch the data by the web service. This method is most suitable for small shops (less than 100 products or 10 orders per day).</p>
+              <p>With this option, we don nott need direct access to the database.
+                Instead, you will create an API key for us that allows us to fetch the data by the web service.
+                This method is most suitable for small shops (less than 100 products or 10 orders per day).
+              </p>
             </div>
           </div>
         </div>

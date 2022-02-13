@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Footer({ children }) {
 
     return (
@@ -36,14 +34,5 @@ export default function Footer({ children }) {
                 </div>
             </div>
         </footer>
-    )
-}
-
-Footer.getLayout = function getLayout(page) {
-    return (
-        <Layout>
-            <Sidebar />
-            {page}
-        </Layout>
     )
 }
